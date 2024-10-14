@@ -5,7 +5,7 @@
 
 a=$(ls -l | grep "^-........x")
 b=$(ls -l | grep "^-.....x...")
-#c=$(ls -l | grep "^-..x......")
+c=$(ls -l | grep "^-..x......")
 
 if [ "$a" ]; then
 	echo "$a"
